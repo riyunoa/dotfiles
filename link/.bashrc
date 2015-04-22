@@ -3,6 +3,7 @@ export DOTFILES=~/.dotfiles
 
 # Add binaries into the path
 PATH=$DOTFILES/bin:$PATH
+PATH=$PATH:$HOME/npm/bin
 export PATH
 
 # Source all files in "source"
